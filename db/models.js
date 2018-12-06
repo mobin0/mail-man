@@ -4,6 +4,7 @@ mongoose.Promise = global.Promise;
 
 const mailmanSchema = new mongoose.Schema({
   id : Number,
+  username: String,
   url: String,
   type: String,
   data: String
